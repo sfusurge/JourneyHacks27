@@ -35,11 +35,12 @@
 
 	p {
 		margin: 0 0 0.5rem;
-		color: #ffcb4c;
+		color: var(--color-gold);
 	}
 
 	h1 {
 		margin: 0;
+		font-family: var(--font-heading);
 		font-size: clamp(2.5rem, 8vw, 6rem);
 		line-height: 1.05;
 	}

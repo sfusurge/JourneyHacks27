@@ -1,0 +1,14 @@
+:root {
+	--color-space: #0f0e5e;
+	--color-indigo: #12116f;
+	--color-blue: #0274f7;
+	--color-starlight: #a9c1ff;
+	--color-orbit: #4952ac;
+	--color-gold: #ffd734;
+	--color-amber: #f9b200;
+	--color-orange: #fe4c01;
+	--color-white: #fff;
+
+	--font-heading: 'Gilroy', 'Gilroy-Bold', system-ui, sans-serif;
+	--font-body: 'GT Cinetype', 'GT Cinetype Trial', system-ui, sans-serif;
+}

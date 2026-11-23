@@ -1,8 +1,10 @@
+@import './lib/styles/theme.css';
+
 :root {
-	font-family: system-ui, sans-serif;
+	font-family: var(--font-body);
 	line-height: 1.5;
-	color: #fff;
-	background: #14145b;
+	color: var(--color-white);
+	background: var(--color-space);
 }
 
 * {
@@ -18,6 +20,6 @@ a {
 }
 
 :focus-visible {
-	outline: 2px solid #ffcb4c;
+	outline: 2px solid var(--color-gold);
 	outline-offset: 4px;
 }
