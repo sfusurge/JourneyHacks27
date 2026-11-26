@@ -5,9 +5,10 @@
 	--color-starlight: #a9c1ff;
 	--color-orbit: #4952ac;
 	--color-gold: #ffd734;
-	--color-amber: #f9b200;
+	/*--color-amber: #f9b200; */
 	--color-orange: #fe4c01;
 	--color-white: #fff;
+	--color-amber: #f9bd03;
 
 	--font-heading: 'Gilroy', 'Gilroy-Bold', system-ui, sans-serif;
 	--font-body: 'GT Cinetype', 'GT Cinetype Trial', system-ui, sans-serif;

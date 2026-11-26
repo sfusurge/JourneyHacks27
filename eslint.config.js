@@ -19,8 +19,10 @@ export default defineConfig(
 		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
 		languageOptions: {
 			parserOptions: { parser: ts.parser }
-		}
+		},
+		rules: { 'svelte/no-navigation-without-resolve': ['error', { ignoreLinks: true }] }
 	},
+
 	prettier,
 	svelte.configs.prettier
 );

@@ -1,11 +1,16 @@
 <script lang="ts">
 	import { event } from '#lib/event.ts';
+	import Navigation from '#lib/components/sections/Navigation.svelte';
+	import Hero from '#lib/components/sections/Hero.svelte';
 </script>
 
 <svelte:head>
 	<title>{event.name} | {event.organizer}</title>
 	<meta name="description" content="JourneyHacks 2027, a hackathon by SFU Surge." />
 </svelte:head>
+
+<Navigation />
+<Hero />
 
 <main>
 	<p>{event.organizer}</p>
